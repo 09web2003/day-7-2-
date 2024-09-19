@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    width: 100%;
+    height: 100vh;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.left{
+    width: 18%;
+    height: 100%;
+    background-color: skyblue;
+}
+.right{
+    width: 82%;
+    height: 100%;
+    background-color: brown;
+}
+.top{
+    width: 100%;
+    height: 8%;
+    background-color: green;
+}
+.middle{
+    width: 100%;
+    height:84%;
+    background-color: blue;
+    display: flex;
+}
+.midleft{
+width: 65%;
+height: 100%;
+background-color: #fff;
+}
+.midright{
+    width: 35%;
+height: 100%;
+background-color: pink;
+}
+.footer{
+    width: 100%;
+    height: 8%;
+    background-color: green;
+}
